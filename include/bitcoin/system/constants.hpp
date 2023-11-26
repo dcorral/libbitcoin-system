@@ -229,8 +229,8 @@ static const config::checkpoint regtest_bip9_bit1_active_checkpoint
 BC_CONSTEXPR size_t command_size = 12;
 
 // Explicit limits.
-BC_CONSTEXPR size_t max_address = 1000;
-BC_CONSTEXPR size_t max_filter_add = 520;
+BC_CONSTEXPR size_t max_address = 10000;
+BC_CONSTEXPR size_t max_filter_add = 2520;
 BC_CONSTEXPR size_t max_filter_functions = 50;
 BC_CONSTEXPR size_t max_filter_load = 36000;
 BC_CONSTEXPR size_t max_get_blocks = 500;
